@@ -8,8 +8,7 @@ use Illuminate\Support\Facades\Storage;
 use App\Models\User;
 
 
-class ImageController extends Controller
-{
+class ImageController extends Controller {
 
     public function upload(Request $request, $userId) {
         $request->validate([
